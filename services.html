@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Services offered by Dak Dynamics">
+    <meta name="description" content="Dak Dynamics - Secure Data Destruction and Electronics Recycling Services">
     <title>Services | Dak Dynamics</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,9 +14,9 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="accepted-items.html">Accepted Items</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,13 +25,52 @@
     <section class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <ul>
-                <li>Electronics Waste Removal for Businesses</li>
-                <li>Retail, Office, and Warehouse Clean-Outs</li>
-                <li>Guaranteed Data Destruction</li>
-                <li>Environmentally Friendly Disposal and Recycling</li>
-                <li>Flexible Scheduling to Suit Your Needs</li>
-            </ul>
+
+            <!-- Data Security Section -->
+            <div class="service-section">
+                <h3>Data Security</h3>
+                <p>At Dak Dynamics, we understand the importance of keeping your sensitive information secure. That’s why we offer guaranteed data destruction for all devices, including computers, servers, and mobile phones. We use industry-leading methods to ensure that your data is irrecoverable, giving you peace of mind.</p>
+                <ul>
+                    <li>Secure Hard Drive Destruction</li>
+                    <li>Certified Data Wiping (for reuse)</li>
+                    <li>Documented and Verifiable Processes</li>
+                </ul>
+            </div>
+
+            <!-- Drop-Off Center Section -->
+            <div class="service-section">
+                <h3>Recycling Drop-Off Center</h3>
+                <p>Bring your electronics to our recycling drop-off center, conveniently located in Chicagoland. We accept a wide variety of electronics, from personal devices to office equipment. Our team ensures proper recycling practices, following eco-friendly guidelines to minimize environmental impact.</p>
+                <p><strong>Location:</strong> 123 E-Recycle Ave, Chicago, IL</p>
+                <p><strong>Hours of Operation:</strong> Monday - Friday, 9 AM - 5 PM</p>
+                <a href="contact.html" class="cta-button">Get Directions</a>
+            </div>
+
+            <!-- Start Recycling (Pickup Request) Section -->
+            <div class="service-section">
+                <h3>Schedule a Pickup</h3>
+                <p>We offer flexible pickup services for businesses and residents in the Chicagoland area. Whether you’re clearing out old office equipment or need a residential e-waste collection, our team is ready to assist. Scheduling a pickup is easy—just fill out the form below, and we’ll take care of the rest.</p>
+
+                <form action="pickup-request.php" method="POST">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="pickup-location">Pickup Location:</label>
+                    <input type="text" id="pickup-location" name="pickup-location" required>
+
+                    <label for="pickup-date">Preferred Pickup Date:</label>
+                    <input type="date" id="pickup-date" name="pickup-date" required>
+
+                    <label for="items">Items to be Recycled:</label>
+                    <textarea id="items" name="items" rows="5" placeholder="List the items you need recycled (e.g., computers, printers, etc.)" required></textarea>
+
+                    <button type="submit">Schedule Pickup</button>
+                </form>
+            </div>
+
         </div>
     </section>
 
