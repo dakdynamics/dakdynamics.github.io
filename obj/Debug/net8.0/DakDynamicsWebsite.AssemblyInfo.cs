@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DakDynamicsWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc3f816d562b28b4d1c637b063baa1be7ba3cad3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf5f26096c108df194e5ee025933d80c88b19104")]
 [assembly: System.Reflection.AssemblyProductAttribute("DakDynamicsWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DakDynamicsWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
