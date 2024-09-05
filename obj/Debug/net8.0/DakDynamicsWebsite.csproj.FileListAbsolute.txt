@@ -1,0 +1,4 @@
+c:\Users\Dakota Stern\Desktop\DakDynamicsWebsite\obj\Debug\net8.0\DakDynamicsWebsite.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Dakota Stern\Desktop\DakDynamicsWebsite\obj\Debug\net8.0\DakDynamicsWebsite.AssemblyInfoInputs.cache
+c:\Users\Dakota Stern\Desktop\DakDynamicsWebsite\obj\Debug\net8.0\DakDynamicsWebsite.AssemblyInfo.cs
+c:\Users\Dakota Stern\Desktop\DakDynamicsWebsite\obj\Debug\net8.0\DakDynamicsWebsite.csproj.CoreCompileInputs.cache
