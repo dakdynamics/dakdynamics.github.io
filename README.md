@@ -1,2 +1,0 @@
-# dakdynamics.github.io
-website
